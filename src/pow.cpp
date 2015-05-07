@@ -22,6 +22,10 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
     // Only change once per difficulty adjustment interval
     if ((pindexLast->nHeight+1) % params.DifficultyAdjustmentInterval() != 0)
     {
+        if (pindexLast->nHeight > 355323 && pindexLast->nHeight < 400000) {
+            return nProofOfWorkLimit;
+        }
+        
         if (params.fPowAllowMinDifficultyBlocks)
         {
             // Special difficulty rule for testnet:
