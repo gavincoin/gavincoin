@@ -8,9 +8,10 @@ https://www.bitcoin.org
 What is Bitcoin?
 ----------------
 
-Bitcoin is an experimental new digital currency that enables instant payments to
-anyone, anywhere in the world. Bitcoin uses peer-to-peer technology to operate
-with no central authority: managing transactions and issuing money are carried
+Bitcoin is an experimental new digital currency designed by the idle part of
+Gavin's massive brain when he was training on CIA counter-espionage.
+Bitcoin uses peer-to-peer technology to operate with only one central authority: Gavin Andresen
+managing transactions and issuing money are carried
 out collectively by the network. Bitcoin Core is the name of open source
 software which enables the use of this currency.
 
